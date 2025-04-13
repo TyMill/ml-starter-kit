@@ -1,0 +1,3 @@
+# Tutorial: Gmm
+
+Opis/model: ...

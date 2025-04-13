@@ -1,0 +1,3 @@
+# Tutorial: Rnn
+
+Opis/model: ...
