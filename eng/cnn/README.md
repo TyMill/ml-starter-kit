@@ -22,59 +22,6 @@ Trained end-to-end using **backpropagation**, CNNs learn directly from raw pixel
 
 ---
 
-## 🧠 When to Use
-
-- Image classification (e.g., MNIST, CIFAR, Fashion MNIST)  
-- Object detection and segmentation  
-- Facial recognition, OCR, medical imaging  
-- Any data with **spatial structure**
-
----
-
-## ✅ Advantages
-
-- Learns relevant features automatically (no manual feature engineering)  
-- Handles **translation invariance** and spatial locality  
-- Reduces parameter count vs fully connected networks  
-- Scales well with large image datasets
-
-## ❌ Disadvantages
-
-- Requires more compute than traditional ML models  
-- Needs more data for effective generalization  
-- Interpretation can be complex (black box effect)
-
----
-
-## 🧪 What’s Inside the Tutorial
-
-This notebook includes:
-- 🧠 A custom CNN built in Keras for **Fashion MNIST** classification  
-- 🧱 Architecture: Conv2D → MaxPooling → Dense  
-- 📈 Visualization of training history (accuracy/loss)  
-- 📊 Detailed evaluation with `classification_report`  
-- 🖼️ Visualization of predictions with true vs predicted labels
-
-📘 Notebook: [`cnn_tutorial.ipynb`](./cnn_tutorial.ipynb)
-
----
-
-## 📂 File Structure
-
-- `cnn_tutorial.ipynb` – Main tutorial notebook  
-- `README.md` – This file  
-- `references.md` – Hand-picked learning resources
-
----
-
-## 📚 Recommended Reading
-
-- [Keras: CNN Example – MNIST ConvNet](https://keras.io/examples/vision/mnist_convnet/)
-- [TensorFlow: CNN Tutorial](https://www.tensorflow.org/tutorials/images/cnn)
-- [Wikipedia: Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
-
----
-
 ## 🧠 CNN Architecture (Example)
 
 ```text
@@ -86,10 +33,11 @@ Input: (28x28x1 grayscale image)
 ↓ Flatten
 ↓ Dense(64) + ReLU
 ↓ Dense(10) + Softmax (for classification)
-'''
+```
+
 ---
 
-##🧠 Try It Yourself
+## 🚀 Try It Yourself
 
 ```text
 ↓ Add Dropout() for regularization
@@ -97,8 +45,8 @@ Input: (28x28x1 grayscale image)
 ↓ Try deeper networks (ResNet, VGG)
 ↓ Apply to your own image datasets
 ↓ Visualize feature maps from intermediate layers
+```
 
 ---
 
-Created with 🧬 by **Tymoteusz Miller** — part of the [ML Starter Kit](https://github.com/TyMill/ml-starter-kit)
-
+Created with 🧠 by **Tymoteusz Miller** — part of the [ML Starter Kit](https://github.com/TyMill/ml-starter-kit)
