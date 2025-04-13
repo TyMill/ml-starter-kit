@@ -1,6 +1,6 @@
 # Linear Regression
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/ml-cheatsheet-repo/blob/main/eng/linear_regression/linear_regression_tutorial.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tymill/ml-starter-kit/blob/main/eng/linear_regression/linear_regression_tutorial.ipynb)
 [![Kaggle](https://img.shields.io/badge/Open%20in-Kaggle-blue)](https://www.kaggle.com/kernels)
 [![JupyterLite](https://img.shields.io/badge/Try%20it-JupyterLite-orange)](https://jupyterlite.github.io/demo)
 
