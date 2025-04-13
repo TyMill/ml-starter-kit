@@ -14,20 +14,23 @@ It models the relationship between a dependent variable (target) and one or more
 Linear regression assumes that the target variable can be expressed as a linear combination of the input features:
 
 ### Simple Linear Regression:
-\[
-y = \beta_0 + \beta_1 x + \epsilon
-\]
+
+$$
+y = \\beta_0 + \\beta_1 x + \\epsilon
+$$
 
 ### Multiple Linear Regression:
-\[
-y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon
-\]
 
-Where:
+$$
+y = \\beta_0 + \\beta_1 x_1 + \\beta_2 x_2 + \\dots + \\beta_n x_n + \\epsilon
+$$
+
+**Where:**
+
 - \( y \): dependent variable  
 - \( x_i \): independent variables  
-- \( \beta_i \): coefficients  
-- \( \epsilon \): error term
+- \( \\beta_i \): coefficients  
+- \( \\epsilon \): error term
 
 ---
 
