@@ -27,10 +27,11 @@ $$
 
 **Where:**
 
-- \( y \): dependent variable  
-- \( x_i \): independent variables  
-- \( \\beta_i \): coefficients  
-- \( \\epsilon \): error term
+- `y` — dependent variable  
+- `xᵢ` — independent variables  
+- `βᵢ` — model coefficients  
+- `ε` — error term (residuals)
+
 
 ---
 
