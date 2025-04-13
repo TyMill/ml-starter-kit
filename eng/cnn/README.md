@@ -18,42 +18,42 @@ CNNs consist of several key components:
 - 🔁 **Activation Functions** – introduce non-linearity (ReLU, LeakyReLU)  
 - 🧠 **Fully Connected Layers** – final classification steps (Dense)
 
-Trained end-to-end using **backpropagation**, CNNs learn directly from raw pixels.
+The architecture is end-to-end differentiable and trained using backpropagation.
 
 ---
 
 ## 🧠 When to Use
 
-- Image classification (e.g., MNIST, CIFAR, Fashion MNIST)  
-- Object detection and segmentation  
-- Facial recognition, OCR, medical imaging  
+- Image classification (MNIST, CIFAR, Fashion MNIST)  
+- Object detection & segmentation  
+- Document or character recognition  
 - Any data with **spatial structure**
 
 ---
 
 ## ✅ Advantages
 
-- Learns relevant features automatically (no manual feature engineering)  
-- Handles **translation invariance** and spatial locality  
+- Learns relevant features automatically  
+- Handles translation invariance and spatial locality  
 - Reduces parameter count vs fully connected networks  
 - Scales well with large image datasets
 
 ## ❌ Disadvantages
 
-- Requires more compute than traditional ML models  
+- Requires more compute than traditional models  
 - Needs more data for effective generalization  
-- Interpretation can be complex (black box effect)
+- Interpretation can be complex
 
 ---
 
 ## 🧪 What’s Inside the Tutorial
 
 This notebook includes:
-- 🧠 A custom CNN built in Keras for **Fashion MNIST** classification  
-- 🧱 Architecture: Conv2D → MaxPooling → Dense  
-- 📈 Visualization of training history (accuracy/loss)  
-- 📊 Detailed evaluation with `classification_report`  
-- 🖼️ Visualization of predictions with true vs predicted labels
+- 🧠 Custom CNN for Fashion MNIST classification
+- 🧱 Conv2D → MaxPooling → Dense architecture
+- 📈 Training/validation accuracy and loss plots
+- 📊 Evaluation with `classification_report`
+- 🖼️ Predictions visualization
 
 📘 Notebook: [`cnn_tutorial.ipynb`](./cnn_tutorial.ipynb)
 
@@ -61,15 +61,15 @@ This notebook includes:
 
 ## 📂 File Structure
 
-- `cnn_tutorial.ipynb` – Main tutorial notebook  
+- `cnn_tutorial.ipynb` – Full implementation and experiments  
 - `README.md` – This file  
-- `references.md` – Hand-picked learning resources
+- `references.md` – External resources
 
 ---
 
 ## 📚 Recommended Reading
 
-- [Keras: CNN Example – MNIST ConvNet](https://keras.io/examples/vision/mnist_convnet/)
+- [Keras: CNN Guide](https://keras.io/examples/vision/mnist_convnet/)
 - [TensorFlow: CNN Tutorial](https://www.tensorflow.org/tutorials/images/cnn)
 - [Wikipedia: Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
@@ -86,10 +86,11 @@ Input: (28x28x1 grayscale image)
 ↓ Flatten
 ↓ Dense(64) + ReLU
 ↓ Dense(10) + Softmax (for classification)
-'''
+```
+
 ---
 
-##🧠 Try It Yourself
+## 🚀 Try It Yourself
 
 ```text
 ↓ Add Dropout() for regularization
@@ -97,8 +98,8 @@ Input: (28x28x1 grayscale image)
 ↓ Try deeper networks (ResNet, VGG)
 ↓ Apply to your own image datasets
 ↓ Visualize feature maps from intermediate layers
+```
 
 ---
 
-Created with 🧬 by **Tymoteusz Miller** — part of the [ML Starter Kit](https://github.com/TyMill/ml-starter-kit)
-
+Created with 🧠 by **Tymoteusz Miller** — part of the [ML Starter Kit](https://github.com/TyMill/ml-starter-kit)
