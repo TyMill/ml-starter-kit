@@ -1,3 +1,13 @@
+
+
+Welcome to my bilingual machine learning repository!  
+Here you'll find concise **cheatsheets**, **theoretical summaries**, and **hands-on tutorials** for the most important ML algorithms – available in both English and Polish 🇬🇧🇵🇱.
+
+Witamy w moim dwujęzycznym repozytorium uczenia maszynowego!  
+Znajdziesz tu zwięzłe **ściągawki**, **podstawy teoretyczne** i **praktyczne tutoriale** najważniejszych algorytmów ML – dostępne po angielsku i po polsku 🇬🇧🇵🇱.
+
+
+
 # Machine Learning Cheatsheet Repository
 
 Welcome to the **Machine Learning Cheatsheet Repository** – a structured collection of short, practical tutorials and summaries of popular ML algorithms.  
